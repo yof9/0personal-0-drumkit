@@ -1,0 +1,40 @@
+
+body {
+    background-image: url("./img/drum-background.webp");
+    color:aliceblue;
+}
+h1, p {
+    text-align: center;
+    font-weight: 800;
+}
+h1 {
+    font-size: 50px;
+    color:rgba(144, 189, 189, 0.664);
+    text-decoration:underline darkgoldenrod;}
+.container-keys {
+    display: flex;
+    flex-wrap: nowrap;
+    margin: 150px 30px;
+    gap: 20px;
+}
+.keys {
+    border-radius: 75%;
+    flex: 1;
+    border: solid 3px hsla(0, 56%, 13%, 0.856);
+    color: rgb(72, 255, 0);
+    font-weight: 900;
+    height: 80px;
+    font-size: larger;
+    background-color: hsla(0, 3%, 21%, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition:all 0.07s;
+    flex-direction: column;
+}
+
+.playing {
+    scale: 1.2;
+    border-color: goldenrod;
+    box-shadow:0 0 30px white;
+}
